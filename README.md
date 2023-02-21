@@ -312,7 +312,7 @@
 
 Análise do Kanban
 
-![Untitled](Fluxo%20de%20trabalho%20do%20a%CC%81gil%20f220715b230a422492ce43084e03793f/Untitled.png)
+![quadro](quadro.png)
 
 1. Quais os problemas você enxerga neste quadro?
 Liste pelo menos um problema por coluna (backlog, análise,
