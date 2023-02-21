@@ -269,3 +269,63 @@
         - transparencia, Inspeção, adaptação
         - PO, Scrum, Dev. team
         - fiz um mapa mental para entender as Metodologias ágeis e Teste ágil https://miro.com/app/live-embed/uXjVPknrHZY=/?moveToViewport=-53,-474,1212,613&embedId=297775995379
+
+
+# Fluxo de trabalho do ágil
+
+- Integrantes
+    - Team dev.
+    - Stakeholders
+    - Apoiadores
+- Pré-jogo / Sprint 1
+- Definition of Ready (DoR)
+- Definition of Done (DoD)
+- Planning
+    - Planning poker
+    - T-Shirt Size
+- Daily
+    - 15m - em pé
+    - Gráfico de Burndown
+- Review
+    - Demonstrar os critérios de aceitação
+    - *Showtime*
+- Restrospective
+    - quadro físico - representação simbólica
+    - funretrospectives
+- Refinamento Backlog
+    - melhorar a proxima sprint
+- MVP
+    - produto com minimo de recursos possiveis
+    - validar hipótese
+- Métricas Ágeis
+    - Burndown
+        - Sprint
+        - Épico
+    - Velocidade
+    - Gráfico de controle
+    - Diagrama de fluxo cumulativo
+        - concluido x à fazer
+    - Criado vs Resolvido
+    
+
+## Exercício
+
+Análise do Kanban
+
+![Untitled](Fluxo%20de%20trabalho%20do%20a%CC%81gil%20f220715b230a422492ce43084e03793f/Untitled.png)
+
+1. Quais os problemas você enxerga neste quadro?
+Liste pelo menos um problema por coluna (backlog, análise,
+desenvolvimento, testes, feito)
+2. Quais as possíveis soluções?
+
+Soluções:
+
+- Criar cenários de testes, baseado nos
+critérios de aceitação;
+- Levantamento de massa de dados;
+- Fazer o planejamento dos testes (word,
+planilha ou mind map);
+- Divisão das tarefas (subtasks);
+- Divisão dos testes automatizados (unit,
+integration, ui);
