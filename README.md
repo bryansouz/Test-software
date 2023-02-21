@@ -329,3 +329,16 @@ planilha ou mind map);
 - Divisão das tarefas (subtasks);
 - Divisão dos testes automatizados (unit,
 integration, ui);
+
+
+# Técnicas de teste Ágil
+
+- Tribo
+    - Squads
+    - Capitulo
+- Shift Left Testing
+- XP
+    - Pair Program → Pareamento
+- Pirâmide de testes
+    - Unidade → Integração → UI → Manual
+    - Evitar Cu
