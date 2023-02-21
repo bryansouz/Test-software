@@ -1,0 +1,108 @@
+|
+### [US-0001] – Adicionar item ao carrinho
+ |
+| --- |
+| **Situação:** | Em Andamento |
+| **Projeto:** | EBAC-SHOP |
+| **Versões Afetadas:** | 1.0 |
+
+| **Tipo:** | História | **Prioridade:** | Média |
+| --- | --- | --- | --- |
+| **Solicitante:** | Fábio Araújo | **Responsável:** |
+ |
+| **Resolução:** |
+ | **Pontuação:** | 13 |
+| **Tempo Estimado:** |
+ |
+
+| **Anexos:** | ![](RackMultipart20230221-1-bsi8ja_html_3ab98b57be1bc9c5.png) |
+| --- | --- |
+
+|   **Descrição**   |   |
+| --- | --- |
+
+| **Como** cliente da EBAC-SHOP
+**Quero** adicionar produtos no carrinho
+**Para** realizar a compra dos itens
+### Critérios de Aceitação:
+1 – Ex. Deve permitir adicionar até 5 produtos no carrinho;
+ 2 – Não deve permitir itens duplicados
+ 3 – Seção Total deve exibir Price \* Quantity
+ 4 – Ao clicar em Remover o item é retirado do carrinho
+ 5 – Validar cupom de desconto
+   |
+| --- |
+|
+ |
+
+|
+### [US-0002] – Login na plataforma
+ |
+| --- |
+| **Situação:** | Em Andamento |
+| **Projeto:** | EBAC-SHOP |
+| **Versões Afetadas:** | 1.0 |
+
+| **Tipo:** | História | **Prioridade:** | Média |
+| --- | --- | --- | --- |
+| **Solicitante:** | Fábio Araújo | **Responsável:** |
+ |
+| **Resolução:** |
+ | **Pontuação:** | 8 |
+| **Tempo Estimado:** |
+ |
+
+| **Anexos:** | ![](RackMultipart20230221-1-bsi8ja_html_8fbcef9f3286c777.png) |
+| --- | --- |
+
+|   **Descrição**   |   |
+| --- | --- |
+
+| **Como** cliente da EBAC-SHOP
+**Quero** fazer o login (autenticação) na plataforma
+**Para** visualizar meus pedidos
+### Critérios de Aceitação:
+1 – Validar email com senha
+ 2 – "Lost your password" deve enviar um email de aviso
+ 3 – Check de Remember me deve salvar email e senha no cache
+ 4 – Ao acessar o login ir para página de pedidos
+ 5 - Validar username com senha
+   |
+| --- |
+|
+ |
+
+|
+### [US-0003] – Lista de desejos (favoritos)
+ |
+| --- |
+| **Situação:** | Em Andamento |
+| **Projeto:** | EBAC-SHOP |
+| **Versões Afetadas:** | 1.0 |
+
+| **Tipo:** | História | **Prioridade:** | Média |
+| --- | --- | --- | --- |
+| **Solicitante:** | Fábio Araújo | **Responsável:** |
+ |
+| **Resolução:** |
+ | **Pontuação:** | 13 |
+| **Tempo Estimado:** |
+ |
+
+| **Anexos:** | ![](RackMultipart20230221-1-bsi8ja_html_27d13568ee73b6f3.png) ![](RackMultipart20230221-1-bsi8ja_html_5a2a8b70fa4f5286.png) |
+| --- | --- |
+
+|   **Descrição**   |   |
+| --- | --- |
+
+| **Como** cliente da EBAC-SHOP
+**Quero** _favoritar_ os itens que eu gosto
+**Para** efetuar a compra futuramente
+### Critérios de Aceitação:
+1 – Salvar item na Wishlist
+ 2 – Informar quando o item está em promoção
+ 3 – Informar quando o item está disponível em estoque
+ 4 – Botão 'favoritar' visível em cada item
+ 5 – Ao clicar em comprar um item que não está no estoque, perguntar ao cliente se não deseja 'favoritar';
+   |
+| --- |
