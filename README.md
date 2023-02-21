@@ -268,3 +268,4 @@
     - Scrum
         - transparencia, Inspeção, adaptação
         - PO, Scrum, Dev. team
+        - fiz um mapa mental para entender as Metodologias ágeis e Teste ágil https://miro.com/app/live-embed/uXjVPknrHZY=/?moveToViewport=-53,-474,1212,613&embedId=297775995379
