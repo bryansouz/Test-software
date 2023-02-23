@@ -1,4 +1,4 @@
-- Módulo 1 - O profissional de Qualidade e suas habilidades
+### O profissional de Qualidade e suas habilidades
     
     O profissional de Qualidade e suas habilidades
     
