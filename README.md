@@ -1,6 +1,6 @@
 ### O profissional de Qualidade e suas habilidades
     
-    O profissional de Qualidade e suas habilidades
+    O profissional de Qualidade ee suas habilidades
     
     - Quality analyst x Quality Assurence
     - Quais suas as atribuiçoes e reponsabilidades
