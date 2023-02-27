@@ -341,4 +341,4 @@ integration, ui);
     - Pair Program → Pareamento
 - Pirâmide de testes
     - Unidade → Integração → UI → Manual
-    - Evitar Cu
+    - Evitar Cupkake, Ice Cream
