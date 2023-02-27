@@ -342,3 +342,19 @@ integration, ui);
 - Pirâmide de testes
     - Unidade → Integração → UI → Manual
     - Evitar Cupkake, Ice Cream
+    - 
+- BDD (Behavior-Driven Development)
+    - TDD
+    - “Os três amigos”
+- Gherkin
+    - Escrita: imperativa x declarativa
+    - Contexto, Esquema de canários, tabela de dados
+
+## Exercício:
+
+Cenário: Formato do email
+
+Dado que o usuário acesse a página de autenticação
+Quando o usuário digitar o email no formato incorreto '@gmail.com'
+E ele digitar a senha '123456'
+Então o sistema deve exibir a mensagem de erro "Formato de nome de usuário inválido".
