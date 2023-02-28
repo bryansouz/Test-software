@@ -359,6 +359,7 @@ Quando o usuário digitar o email no formato incorreto '@gmail.com'
 E ele digitar a senha '123456'
 Então o sistema deve exibir a mensagem de erro "Formato de nome de usuário inválido".
 
+# Testes de UI (user interface)
 - GUI x CLI
 - UI
     - Usabilidade
