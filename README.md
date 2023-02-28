@@ -358,3 +358,20 @@ Dado que o usuário acesse a página de autenticação
 Quando o usuário digitar o email no formato incorreto '@gmail.com'
 E ele digitar a senha '123456'
 Então o sistema deve exibir a mensagem de erro "Formato de nome de usuário inválido".
+
+- GUI x CLI
+- UI
+    - Usabilidade
+    - Compartibilidade
+    - Consistência
+    - Acessibilidade
+
+![testUI](testUI.png)
+
+- Heurística
+    - principios de usabilidade
+    - experiencia, prática, visão
+- Teste de Acessibilidade Web
+    - WCAG
+- HTML, CSS e DOM
+
