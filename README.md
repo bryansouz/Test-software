@@ -376,3 +376,64 @@ Então o sistema deve exibir a mensagem de erro "Formato de nome de usuário inv
     - WCAG
 - HTML, CSS e DOM
 
+# Automação de UI com Cypress
+
+/// <referebce type=”cypress” />
+
+var faker = required(”faker”)
+
+context(’funcionalidade login’, ()⇒{
+
+beforeEach(()⇒{
+
+cy.visit(’[https://www.notion.so/prof-bryan/Automa-o-de-UI-com-Cypress-2da5eec7a14f4713aec4167593aa2f3f](https://www.notion.so/Automa-o-de-UI-com-Cypress-2da5eec7a14f4713aec4167593aa2f3f)‘)
+
+})
+
+it(’deve fazer login com sucesso’, ()⇒{
+
+cy.get(’#username’).type(”nome@hotmail.com”)
+
+cy.get(’#senha’).type(”12345689”)
+
+cy.get(’#button’).click() 
+
+cy.get(’.pag-title’).should(’contain’, “minha conta”)
+
+})
+
+it(’msg de erro usuário inválidos’, ()⇒{
+
+cy.get(’#username’).type(”faker.internet.email()”)
+
+cy.get(’#senha’).type(”12345689”)
+
+cy.get(’#button’).click() 
+
+cy.get(’.pag-title’).should(’contain’, “msg de erro”)
+
+})
+
+afterEach(()⇒{
+
+cy.screenshot()
+
+})
+
+it(’msg de senha inválidos’, ()⇒{
+
+cy.get(’#username’).type(”nome@hotmail.com”)
+
+cy.get(’#senha’).type(”123”)
+
+cy.get(’#button’).click() 
+
+cy.get(’.pag-title’).should(’contain’, “msg de erro”)
+
+})
+
+})
+
+describle(”funcionabilidade do site”, ()⇒[
+
+})
