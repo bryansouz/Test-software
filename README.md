@@ -437,3 +437,33 @@ cy.get(’.pag-title’).should(’contain’, “msg de erro”)
 describle(”funcionabilidade do site”, ()⇒[
 
 })
+
+
+## Arquivo de Dados
+
+- cypress.json → baseUrl”: “url-semicompleta” para acessar o site automaticamente
+- perfil.json → const perfil = required(”../fixturas/perfil.json”) → cy.fixture(’perfil’).then( dados ⇒{  // testing code…      }
+- perfil.usuario or perfil.senha
+- perfil.senha { logs: false } dar hidden na senha no cypress
+
+## Comandos Customizados
+
+- criar uma script para executar uma lista de comandos
+- suport/commands.js  → Cypress.commend.add(”login”, (usuario, senha) ⇒{   //testing code   }
+- cria um cy.login(usuario, senha) para acessar o login automáticamente
+
+## Page Objects Model
+
+- support → /page-object → endereco.js
+- class enderecoPage → Metodo para editar informações com paramêtros
+
+## Massa de Dados em lista
+
+- fixtures → endereco.json
+- cria um objeto com nome, sobrenome, empres.. etc
+- é importado e usado como enderecoDados[1].nome,
+
+## Relatórios
+
+- package.json → “cy:run”: “npx cypress run —browser chrome”, “cy:run”: “npx cypress open —browser chrome” → comandos terminal
+- cy dashbord → gerou um script com  chave do dashbord → “cy:reporting”: “chave do dashbord”
