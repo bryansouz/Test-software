@@ -467,3 +467,21 @@ describle(”funcionabilidade do site”, ()⇒[
 
 - package.json → “cy:run”: “npx cypress run —browser chrome”, “cy:run”: “npx cypress open —browser chrome” → comandos terminal
 - cy dashbord → gerou um script com  chave do dashbord → “cy:reporting”: “chave do dashbord”
+
+
+
+1. Preparação do ambiente
+    
+    ```jsx
+    cy.request({
+    	method:'POST', 
+    	url: 'https://sua_url_de_login.com', 
+    	body: {
+    			"email":"fulano@qa.com",
+    			"password":"teste"
+    				}
+    	}).then((response) => {
+        expect(response.status).to.eq(200); 
+        expect(response.body.message).to.equal('Login realizado com sucesso');
+      });
+    ```
